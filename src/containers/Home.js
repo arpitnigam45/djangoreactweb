@@ -86,36 +86,64 @@ const HomepageLayout = () => (
     <Segment style={{ padding: "8em 0em" }} vertical>
       <Grid container stackable verticalAlign="middle">
         <Grid.Row>
-          <Grid.Column width={8}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              We Help Companies and Companions
+          <Grid.Column width={10}>
+            <Header as="h3" style={{ fontSize: "2em", textAlign: "center" }}>
+              All the best fashion influencers in the biz
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              We can give your company superpowers to do things that they never
-              thought possible. Let us delight your customers and empower your
-              needs... through pure data analytics.
+              Searching for online style inspiration, it’s easy to fall down the black hole of Insta-hell.
+              When you finally look up from your phone, you realise you’ve spent two whole days scrolling through feeds – and you’re still in your dressing gown, with no idea what to wear (we’ve all been there). Which sort of defeats the point.
+
+              Well never fear, we’ve done the hard search for you. From our favourite UK influencers to the best missives
+              from Milan and the coolest New Yorkers,
+              read on for our definitive guide to the best fashion blogs (and more importantly, where to shop their looks).
             </p>
+            <br></br>
+
             <Header as="h3" style={{ fontSize: "2em" }}>
-              We Make Bananas That Can Dance
+              Trishna Goklani
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              Yes that's right, you thought it was the stuff of dreams, but even
-              bananas can be bioengineered.
+              <b>Who?</b> Trishna Goklani, social media editor for Paradise Row by day, UK influencer by night..
+            </p>
+            <p style={{ fontSize: "1.33em" }}>
+              <b> Why:</b> Trishna’s style is understated, timeless and just plain cool.
+              Follow her if you’re after the best forever pieces,
+              from the perfect little black dress to the leather jacket.
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
-            <Image
-              bordered
-              rounded
-              size="large"
-              src="/images/wireframe/white-image.png"
-            />
+            <img src={require('./images/fashion.jpg')} />
+
+
+            <br></br><br></br>
+          </Grid.Column>
+
+          < Grid.Column width={10} textAlign="center">
+            <Button size="huge" href="https://www.marieclaire.co.uk/fashion/the-best-fashion-blogs-ever-69888">Check Them Out</Button>
           </Grid.Column>
         </Grid.Row>
+        <Grid.Column width={10}>
+          <br></br>
+          <Header as="h3" style={{ fontSize: "2em", textAlign: "center" }}>
+            Men's Fashion Blog India
+            </Header>
+          <p style={{ fontSize: "1.33em" }}>
+            <b> Why:</b> Trishna’s style is understated, timeless and just plain cool.
+              Follow her if you’re after the best forever pieces,
+              from the perfect little black dress to the leather jacket.
+            </p>
+        </Grid.Column>
+
         <Grid.Row>
-          <Grid.Column textAlign="center">
-            <Button size="huge">Check Them Out</Button>
+          <Grid.Column width={10} textAlign="center">
+            <Button size="huge" href="http://www.theunstitchd.com/">Check Them Out</Button>
+
           </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row>
+
         </Grid.Row>
       </Grid>
     </Segment>
@@ -123,20 +151,20 @@ const HomepageLayout = () => (
       <Grid celled="internally" columns="equal" stackable>
         <Grid.Row textAlign="center">
           <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              "What a Company"
+            <Header as="h3" style={{ fontSize: "1.5em" }}>
+              "Helena Bordon"
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              That is what they all say about us
+              Her ironic fashion-addict asides soon had her readers rolling in the aisles
             </p>
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              "I shouldn't have gone with their competitor."
+            <Header as="h3" style={{ fontSize: "1.5em" }}>
+              "Pandora Sykes."
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              <Image avatar src="/images/avatar/large/nan.jpg" />
-              <b>Nan</b> Chief Fun Officer Acme Toys
+
+              <b></b> Style should be fun and fashion is not a lone Endeavour
             </p>
           </Grid.Column>
         </Grid.Row>
@@ -144,16 +172,18 @@ const HomepageLayout = () => (
     </Segment>
     <Segment style={{ padding: "8em 0em" }} vertical>
       <Container text>
-        <Header as="h3" style={{ fontSize: "2em" }}>
-          Breaking The Grid, Grabs Your Attention
+        <Header as="h3" style={{ fontSize: "2em" }} >
+          Hello Blogger
         </Header>
-        <p style={{ fontSize: "1.33em" }}>
-          Instead of focusing on content creation and hard work, we have learned
-          how to master the art of doing nothing by providing massive amounts of
-          whitespace and generic content that can seem massive, monolithic and
-          worth your attention.
+        <p style={{ fontSize: "1.2em" }}>
+          This is the age of personality. Whether it be a celebrity, brand or blogger, in order to stand out, above the digital noise,
+          there needs to be a singular voice or personality to communicate through those all important social media channels.
+
+          I’ve always said social media is a little bit like skimming stones:
+          sometimes those tweets or instagrams just plop and sink without a trace and other times
+          they can bounce on and on, much further than you imagined.
         </p>
-        <Button as="a" size="large">
+        <Button as="a" size="large" href="https://www.fashionbeans.com/category/mens-fashion-trends/">
           Read More
         </Button>
         <Divider
@@ -165,15 +195,15 @@ const HomepageLayout = () => (
           <a href="#case-studies">Case Studies</a>
         </Divider>
         <Header as="h3" style={{ fontSize: "2em" }}>
-          Did We Tell You About Our Bananas?
+          Style & Error
+
         </Header>
-        <p style={{ fontSize: "1.33em" }}>
-          Yes I know you probably disregarded the earlier boasts as non-sequitur
-          filler content, but it's really true. It took years of gene splicing
-          and combinatory DNA research, but our bananas can really dance.
+        <p style={{ fontSize: "1.2em" }}>
+          Thomas Stubbs, the man behind Style & Error, is a menswear stylist (the guy who makes Dermot look good on The X Factor)
+          and fashion writer, whose sense of humour is underpinned with years of industry knowledge.
         </p>
-        <Button as="a" size="large">
-          I'm Still Quite Interested
+        <Button as="a" size="large" href="https://www.fashionbeans.com/article/mens-sneaker-trends/">
+          I'm Interested
         </Button>
       </Container>
     </Segment>
