@@ -18,9 +18,16 @@ class App extends Component {
           <BaseRouter />
         </CustomLayout>
       </Router>
-    );
+    )
   }
+
 }
+
+
+
+
+
+
 
 const mapStateToProps = state => {
   return {
@@ -35,6 +42,7 @@ const mapDispatchToProps = dispatch => {
 };
 
 export default connect(
+
   mapStateToProps,
   mapDispatchToProps
 )(App);
