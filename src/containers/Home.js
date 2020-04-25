@@ -113,28 +113,39 @@ const HomepageLayout = () => (
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
-            <img src={require('./images/fashion.jpg')} />
-
+            <img src={require('./images/fashion.jpg')} style={{ width: "250px", height: "300px", margin: "20px" }} />
+          </Grid.Column>
+        </Grid.Row><Grid.Row>
+          <Grid.Column floated="right" width={6}>
+            <img src={require('./images/trisha.jpg')} style={{ width: "250px", height: "300xpx" }} />
 
             <br></br><br></br>
           </Grid.Column>
 
-          < Grid.Column width={10} textAlign="center">
+          < Grid.Column width={8} textAlign="center">
             <Button size="huge" href="https://www.marieclaire.co.uk/fashion/the-best-fashion-blogs-ever-69888">Check Them Out</Button>
           </Grid.Column>
         </Grid.Row>
-        <Grid.Column width={10}>
-          <br></br>
-          <Header as="h3" style={{ fontSize: "2em", textAlign: "center" }}>
-            Men's Fashion Blog India
+        <Grid.Row>
+          <Grid.Column width={10}>
+            <br></br>
+            <Header as="h3" style={{ fontSize: "2em", textAlign: "center" }}>
+              Men's Fashion Blog India
             </Header>
-          <p style={{ fontSize: "1.33em" }}>
-            <b> Why:</b> Trishna’s style is understated, timeless and just plain cool.
-              Follow her if you’re after the best forever pieces,
-              from the perfect little black dress to the leather jacket.
+            <p style={{ fontSize: "1.33em" }}>
+              <b> Why:</b> We're totally in awe with his dressing style -
+               Jatinn Jay has to be one of the best Indian male fashion blogger
+               as his style speaks volume when it comes to trending looks.
+              A fashion stylist by profession who loves street style
+              - you've got to follow him to upgrade your wardrobe.
             </p>
-        </Grid.Column>
+          </Grid.Column>
+          <Grid.Column floated="right" width={6}>
+            <img src={require('./images/men.jpg')} style={{ width: "250px", height: "300xpx" }} />
 
+            <br></br><br></br>
+          </Grid.Column>
+        </Grid.Row>
         <Grid.Row>
           <Grid.Column width={10} textAlign="center">
             <Button size="huge" href="http://www.theunstitchd.com/">Check Them Out</Button>
